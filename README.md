@@ -81,7 +81,7 @@ Or Just Download [Installer](https://github.com/tony-btc/seed-phrase-generator/r
 
 ## Linux (x86-64bit)
 ```bash
-wget https://github.com/tony-dev1/walletgen/releases/download/walletgen/walletgen-v1.5.0-linux.tar.gz
+wget https://github.com/tony-btc/walletgen/releases/download/walletgen/walletgen-v1.5.0-linux.tar.gz
 tar -xzf walletgen-v1.5.0-linux.tar.gz
 cd walletgen
 ./walletgen
