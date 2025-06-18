@@ -182,6 +182,12 @@ After a week of non-stop wallet searching, I finally found a [wallet](https://me
     <img width="1000" height="460" src="https://github.com/user-attachments/assets/6c5faff7-594f-4d37-b91b-f6482c728611" />
 </p>
 
+## New Find 6/18/2025
+
+<p align="center">
+    <img width="1000" height="460" src="https://github.com/user-attachments/assets/552d00df-dc70-4c42-9fa9-1cf258681af7" />
+</p>
+
 
 ## Building the Project
 
