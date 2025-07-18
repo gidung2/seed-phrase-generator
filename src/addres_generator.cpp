@@ -1,12 +1,3 @@
-/* 
-* This file is part of the Trezor Crypto library.
-* 
-* Copyright (c) 2021 SatoshiLabs s.r.o. (https://www.satoshilabs.com)
-* 
-* This code is licensed under the MIT License (MIT), see LICENSE file for details.
-*/
-
-
 #include "address_generator.h"
 #include <sstream>
 #include <iomanip>
