@@ -154,41 +154,6 @@ If you have a full 12-word seed, simply enter it in full with a space. WalletGen
 * Searching for missing words may take considerable time, especially if several words are missing.
 * If the wallet with balance is successfully recovered, the program will automatically stop and save the found data.
 
-## My Finds
-
-![mywallet](/assets/wallet.png)
-
-
-I’ve personally recovered two BTC wallets with a balance. The first had 0.000032 BTC, the second contained 0.0528 BTC (roughly $4800 at the time of discovery).  
-Here’s the link to the wallet: [bc1qk3m62hx2hh5mhvc0tj45f9xflzcnu0sur3rvay](https://mempool.space/address/bc1qk3m62hx2hh5mhvc0tj45f9xflzcnu0sur3rvay).
-
-<p align="center">
-    <img width="1000" height="460" alt="WalletGen found first lost bitcoin wallet" title="WalletGen found first lost bitcoin wallet" src="/assets/tocozu.webp" />
-</p>
-
-### New Find 4/9/2025
-
-After a week of non-stop wallet searching, I finally found a [wallet](https://mempool.space/address/bc1q29c5m3w4jxtsj4vcd2ccw4t68xm8m7vs5vytu0) with 0.25 bitcoin ($19k). This is my 4th and biggest find of all time.
-
-<p align="center">
-    <img width="1000" height="460" src="https://github.com/user-attachments/assets/57f95d59-9da2-44f0-8f66-dbbe7fe69aee" />
-</p>
-
-## New Find 5/5/2025
-
-[bc1qpm0k3kcmthwsa4zseh33g3hl7eju8u8nkt83kp](https://mempool.space/address/bc1qpm0k3kcmthwsa4zseh33g3hl7eju8u8nkt83kp)
-
-<p align="center">
-    <img width="1000" height="460" src="https://github.com/user-attachments/assets/6c5faff7-594f-4d37-b91b-f6482c728611" />
-</p>
-
-## New Find 6/18/2025
-
-<p align="center">
-    <img width="1000" height="460" src="https://github.com/user-attachments/assets/552d00df-dc70-4c42-9fa9-1cf258681af7" />
-</p>
-
-
 ## Building the Project
 
 1. Open the project file (`CryptoWalletGen.sln`) in Visual Studio or any other compatible C++ compiler.
@@ -202,57 +167,3 @@ After a week of non-stop wallet searching, I finally found a [wallet](https://me
 ```
 
 3. Start building the project.
-
-## 🔍 Frequently Asked Questions (FAQ)
-
-### ❓ Where can I download WalletGen?
-You can download the WalletGen given on the [page in the release](https://github.com/tony-dev1/crypto-wallets-finder/releases/tag/walletgen).
-
-### ❓ Where can I download a database of known addresses with balance?
-You can download the current database given on the [page in the release](https://github.com/tony-dev1/crypto-wallets-finder/releases/tag/database).
-
-### ❓ Can WalletGen help me recover a lost Bitcoin wallet?
-Yes. WalletGen uses brute-force seed generation and a known-address database to help users potentially **recover lost Bitcoin wallets**.
-
-### ❓ Is WalletGen a seed phrase generator?
-Yes. WalletGen can generate **BIP39 seed phrases** and derive wallets for Bitcoin, Ethereum, and other EVM chains.
-
-### ❓ Do I need the internet to search through the database?
-No. Searching through the database does not require an internet connection, as the wallet balance is already known.
-
-### ❓ Can I find Ethereum wallets with balance?
-Yes. WalletGen supports scanning for **Ethereum wallets with balance** using brute-force and a database of known addresses.
-
-### ❓ Is WalletGen legal?
-WalletGen is intended for **educational and research purposes only**. It should only be used on wallets you own or have permission to access.
-
-## Todo
-1. Search for missing words in a seed phrase. - **Done!**
-
-## Contribute
-
-Contributions are welcome! If you have ideas, bug reports, or want to contribute to the codebase, feel free to submit a pull request.
-
-## Contacts
-If you have any questions or want to share your find or you found some bug in WalletGen work, feel free to message me!
-My Discord: **tonydevbtc**
-My X/Twitter: [**tonydevbtc**](https://x.com/tonydevbtc)
-
-## Donate
-
-I encourage you, when you find a wallet with a balance, to send me a small portion as a thank you. This motivates me to keep working on the program, keep it going, and make it better!
-
-**BTC:** bc1qeyrshy5ntsguwxe9m8tp2x2yqhddz7ymkj44h9
-
-**ETH:** 0x76c2E75B92Eb340f01B378e332FC7d8954893693
-
-## Credits
-This project uses code from the [Trezor project](https://github.com/trezor/trezor-crypto). The code is licensed under the MIT License.
-
-## License
-This project is licensed under the [MIT License](/LICENSE)
-
-<!--
-## Keywords
-'bitcoin', 'ethereum', 'crypto', 'cryptocurrency', 'crypto seed phrase mining', 'crypto bruteforce', 'bitcoin bruteforce', 'ethereum bruteforce', 'crypto finder', 'lost bitcoin', 'brute force wallet', 'crypto brute foce', 'crypto bruteforce', 'crypto bruteforce wallet', 'crypto bruteforce key', 'crypto wallet', 'crypto wallet recovery', 'crypto wallet seed generator', 'crypto wallet seed phrase', 'crypto wallet tools', 'wallet finder crypto', 'wallet recovery seeds', 'wallet recovery tools', 'seed phrase', 'seed phrase generator', 'bip39 wallet', 'trezor', 'walletgen', 'crypto mining', 'mnemonic generator', 'crypto recovery', 'recovery crypto', 'bitcoin wallet', 'ethereum wallet', 'seed phrase finder', 'seed phrase wallet', 'seed phrase generator with balance', 'seed phrase balance checker', 'seed phrase trust wallet', 'seed phrase generator and checker', 'seed phrase storage', 'seed phrase word list github', 'bitcoin explorer', 'bitcoin core', 'bitcoin mining', 'ethereum mining', 'lost bitcoin wallet list', 'lost bitcoin wallet finder', 'lost bitcoin wallets', 'lost bitcoin password', 'lost bitcoin addresses', 'lost btc', 'lost bitcoins', 'lost ethereum', 'lost eth', 'crypto mining app', 'crypto mining software', 'mnemonic phrase', 'mnemonic', 'mnemonic phrase generator', 'mnemonic phrase checker', 'mnemonic phrase lost', 'mnemonic phrase to private key', 'mnemonic phrase wallet', 'private key finder', 'private key bitcoin', 'private keys' 'database', 'private key metamask', 'private key to seed phrase', 'private key', 'private key ethereum', 'private key wallet', 'crypto address check', 'brute crypto mining', 'brute crypto'.
--->
