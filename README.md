@@ -7,29 +7,6 @@ Meta description:
 WalletGen is a high-speed, open-source crypto wallet generator and balance finder for Bitcoin, Ethereum, and other EVM-compatible blockchains. It allows brute-force seed phrase testing, wallet generation, and recovery of lost crypto wallets using databases or real-time balance checks.
 -->
 
-## Quick Navigation
-- [How It Works](#how-it-works)
-- [Why WalletGen](#why-walletgen)
-- [Features](#features)
-- [Download WalletGen](#how-to-start)
-- [Database Download](#download-and-use-database-for-more-speed)
-- [The Program Found a Wallet - What Next?](#the-program-found-a-wallet--whats-next)
-- [Recovery Your Bitcoin Wallet](#recovery-your-bitcoin-wallet)
-- [My Finds](#my-finds)
-- [FAQ](#-frequently-asked-questions-faq)
-- [Build Instructions](#building-the-project)
-- [Donate](#donate)
-
-[![platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20Android-blue)](https://github.com/tony-dev1/wallets-finder/releases/tag/walletgen)
-![build](https://img.shields.io/badge/build-passing-brightgreen)
-![discord](https://img.shields.io/badge/discord-tonydevbtc-blue.svg?logo=discord&label=discord)
-[![x](https://img.shields.io/badge/@tonydevbtc-black.svg?logo=x)](https://x.com/tonydevbtc)
-[![telegram](https://img.shields.io/badge/@walletgenbtc-blue.svg?logo=telegram)](https://t.me/walletgenbtc)
-
-<p align="center">
-    <img width="1000" alt="WalletGen wallet generator demo" title="WalletGen wallet generator" height="460" src="/assets/walletgen.webp" />
-</p>
-
 ⚠️ **Disclaimer**: WalletGen is a research and educational tool. It is not intended for unauthorized access or malicious activity. Use it responsibly and only with wallets you own or have permission to access.
 
 ## How It Works
@@ -69,28 +46,6 @@ Unlike Python-based brute force tools, **WalletGen** is written in C++ and optim
 
 <p align="center">
     <img width="1000" height="460" alt="WalletGen search lost bitcoin wallets on Linux Demo" title="WalletGen search lost bitcoin wallets on Linux" src="/assets/walletgen_linux1.webp" />
-</p>
-
-# How to start
-
-## Windows 
-- Download [WalletGen.zip](https://github.com/tony-btc/seed-phrase-generator/releases/download/walletgen/WalletGen_v1.8.0.zip) (5MB)
-- Unpack anywhere
-- Run `WalletGen.exe`
-
-<!--
-Or Just Download [Installer](https://github.com/tony-btc/seed-phrase-generator/releases/download/walletgen/WalletGen_Windows_v1.8.0.exe)
--->
-
-## Linux (x86-64bit)
-```bash
-wget https://github.com/tony-btc/seed-phrase-generator/releases/download/walletgen/walletgen-v1.5.0-linux.tar.gz
-tar -xzf walletgen-v1.5.0-linux.tar.gz
-cd walletgen
-./walletgen
-```
-## Android (Beta)
-- Download [walletgen-beta.apk](https://github.com/tony-btc/seed-phrase-generator/releases/download/walletgen/walletgen-android-beta.apk) (15MB)
 
 ### Download and Use Database (for more speed)
 | Database                                                     | Download link                                |  File Size                             | Number of Addresses  |
@@ -144,8 +99,6 @@ If your seed phrase is missing some words or you are unsure, replace those words
 #### Entering a complete seed-phrase:
 
 If you have a full 12-word seed, simply enter it in full with a space. WalletGen will generate all address types (Legacy, SegWit, P2SH) and check their balances.
-
-![recovery](/assets/recovery.webp)
 
 ### Important recommendations
 
